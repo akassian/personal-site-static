@@ -1,0 +1,26 @@
+body {
+  color: white;
+  background-image: url("bg.jpg");
+  background-color: gray;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.bg-secondary-translucent {
+  background-color: rgba(179, 179, 179, 0.25);
+}
+
+button {
+  cursor: pointer;
+}
+
+.link {
+  cursor: pointer;
+  transition-duration: .5s;
+}
+
+.link:hover {
+  opacity: .5;
+  text-decoration: underline;
+}
